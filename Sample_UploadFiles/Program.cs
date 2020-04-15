@@ -13,7 +13,7 @@ namespace Sample_UploadFiles
     {
         static void Main(string[] args)
         {
-			var imgPath = @"A:\1.bmp";
+			var imgPath = @"A:\CSFFramework.rar";
 			var response = Task.Run(() => Upload(imgPath));
 			Console.WriteLine($"please any key to continue......");
 			Console.WriteLine($"{response.Result}");
